@@ -191,15 +191,7 @@ Capture d’écran : ping réussi.
 
 ## Installation et configuration SSH sur Debian
 
-### Étape 1 : Vérification du service
-
-```bash
-systemctl status ssh
-```
-
----
-
-### Étape 2 : Installation du service SSH
+### Étape 1 : Installation du service SSH
 
 Si nécessaire :
 
@@ -212,7 +204,7 @@ systemctl start ssh
 
 ---
 
-### Étape 3 : Vérification
+### Étape 2 : Vérification
 
 ```bash
 systemctl status ssh
