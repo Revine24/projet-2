@@ -14,8 +14,7 @@ Si le nom n’est pas correct, renommez la machine :
 Rename-Computer -NewName CLIWIN01 -Restart
 ```
 
-![resultat_de_la_commande_hostname](screen/windows%11/resultat_de_la_commande_hostname.png).
-
+![Résultat Hostname](screen/windows%2011/resultat_de_la_commande_hostname.png)
 ---
 
 ### Étape 2 : Vérification de l’utilisateur
