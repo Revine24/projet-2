@@ -236,7 +236,7 @@ Capture d’écran : génération de clé.
 ### Étape 2 : Envoi de la clé vers Debian
 
 ```powershell
-type $env:USERPROFILE\.ssh\id_rsa.pub | ssh wilder@172.16.20.10 "cat >> ~/.ssh/authorized_keys"
+type $env:USERPROFILE\.ssh\id_ed25519.pub | ssh wilder@172.16.20.10 "cat >> ~/.ssh/authorized_keys"
 ```
 
 Entrez le mot de passe une seule fois.
