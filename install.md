@@ -131,34 +131,23 @@ groups wilder
 
 ---
 
-### Étape 5 : Configuration réseau
+### Étape 5 : Configuration réseau (permanente)
 
-Activez l’interface réseau :
-
-```bash
-ip link set ens18 up
-```
-
-Configurez l’adresse IP :
+Éditez le fichier de configuration réseau :
 
 ```bash
-ip addr flush dev ens18
-ip addr add 172.16.20.10/24 dev ens18
+nano /etc/network/interfaces
 ```
 
-Configurez la passerelle :
+![ip_debian](screen/Debian/ip_debian.png)
+
+Enregistrez le fichier puis redémarrez le service réseau :
 
 ```bash
-ip route add default via 172.16.20.254
+systemctl restart networking
 ```
 
-Configurez le DNS :
-
-```bash
-echo "nameserver 8.8.8.8" > /etc/resolv.conf
-```
-
-Vérifiez :
+Vérifiez la configuration :
 
 ```bash
 ip a
@@ -166,7 +155,6 @@ ip route
 ```
 
 ![resultat de ip a et ip route](screen/Debian/resultat%de%ip%a%et%ip%route.png)
-
 ---
 
 ## Test réseau
@@ -183,11 +171,9 @@ Depuis Debian :
 ping 172.16.20.20
 ```
 
-<p align="center">
-  <img src="screen/ping_réussi_debian.png" width="45%" />
-  <img src="screen/ping_réussi_windows_11.png" width="45%" />
-</p>
-
+| Ping depuis Debian | Ping depuis Windows 11 |
+| :---: | :---: |
+| ![ping_réussi_debian](screen/ping_réussi_debian.png) | ![ping_réussi_windows_11](screen/ping_réussi_windows_11.png) |
 
 ---
 
