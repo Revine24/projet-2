@@ -83,7 +83,7 @@ ipconfig
 hostname
 ```
 
-![résultat de hostname](screen/Debian/résultat%de%hostname.png)
+![résultat de hostname](screen/Debian/resultat%de%hostname.png)
 
 ---
 
@@ -111,7 +111,7 @@ adduser wilder
 
 Mot de passe : Azerty1*
 
-![résultat de id wilder](screen/Debian/résultat%de%id%wilder.png)
+![résultat de id wilder](screen/Debian/resultat%de%id%wilder.png)
 
 ---
 
@@ -127,7 +127,7 @@ Vérifiez :
 groups wilder
 ```
 
-![présence du groupe sudo](screen/Debian/présence%du%groupe%sudo.png)
+![présence du groupe sudo](screen/Debian/presence%du%groupe%sudo.png)
 
 ---
 
@@ -173,7 +173,7 @@ ping 172.16.20.20
 
 | Ping depuis Debian | Ping depuis Windows 11 |
 | :---: | :---: |
-| ![ping_réussi_debian](screen/ping_réussi_debian.png) | ![ping_réussi_windows_11](screen/ping_réussi_windows_11.png) |
+| ![ping_réussi_debian](screen/ping_reussi_debian.png) | ![ping_réussi_windows_11](screen/ping_reussi_windows_11.png) |
 
 ---
 
@@ -214,4 +214,4 @@ ssh wilder@172.16.20.10
 
 Mot de passe : Azerty1*
 
-![connexion_SSH_réussief](screen/connexion_SSH_réussie.png)
+![connexion_SSH_réussief](screen/connexion_SSH_reussie.png)
