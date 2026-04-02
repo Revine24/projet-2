@@ -127,7 +127,7 @@ Vérifiez :
 groups wilder
 ```
 
-![présence du groupe sudo](screen/Debian/presence%du%groupe%sudo.png)
+![présence du groupe sudo](screen/Debian/presence_du_groupe_sudo.png)
 
 ---
 
