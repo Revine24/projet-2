@@ -31,8 +31,7 @@ Si l’utilisateur n’existe pas :
 net user Wilder Azerty1* /add
 ```
 
-Capture d’écran : résultat de Get-LocalUser.
-
+![Résultat Get-LocalUser](screen/windows%2011/resultat_de_Get-LocalUser.png)
 ---
 
 ### Étape 3 : Ajout au groupe Administrators
@@ -49,7 +48,7 @@ Vérifiez :
 net localgroup Administrators
 ```
 
-Capture d’écran : présence de Wilder dans le groupe Administrators.
+![presence_de_Wilder_dans_le_groupe_Administrators](screen/windows%2011/presence_de_Wilder_dans_le_groupe_Administrators.png)
 
 ---
 
@@ -62,7 +61,7 @@ Configurez l’adresse IP manuellement :
 - Passerelle : 172.16.20.254  
 - DNS : 8.8.8.8  
 
-Capture d’écran : configuration IPv4.
+![configuration_IPv4](screen/windows%2011/configuration_IPv4.png)
 
 ---
 
@@ -72,7 +71,7 @@ Capture d’écran : configuration IPv4.
 ipconfig
 ```
 
-Capture d’écran : résultat de ipconfig.
+![resultat_de_ipconfig](screen/windows%2011/resultat_de_ipconfig.png)
 
 ---
 
@@ -84,7 +83,7 @@ Capture d’écran : résultat de ipconfig.
 hostname
 ```
 
-Capture d’écran : résultat de hostname.
+![résultat de hostname](screen/Debian/résultat%de%hostname.png)
 
 ---
 
@@ -94,7 +93,7 @@ Capture d’écran : résultat de hostname.
 cat /etc/os-release
 ```
 
-Capture d’écran : résultat de la commande.
+![version_debian](screen/Debian/version_debian.png)
 
 ---
 
@@ -112,7 +111,7 @@ adduser wilder
 
 Mot de passe : Azerty1*
 
-Capture d’écran : résultat de id wilder.
+![résultat de id wilder](screen/Debian/résultat%de%id%wilder.png)
 
 ---
 
@@ -128,7 +127,7 @@ Vérifiez :
 groups wilder
 ```
 
-Capture d’écran : présence du groupe sudo.
+![présence du groupe sudo](screen/Debian/présence%du%groupe%sudo.png)
 
 ---
 
@@ -166,7 +165,7 @@ ip a
 ip route
 ```
 
-Capture d’écran : résultat de ip a et ip route.
+![resultat de ip a et ip route](screen/Debian/resultat%de%ip%a%et%ip%route.png)
 
 ---
 
@@ -184,7 +183,11 @@ Depuis Debian :
 ping 172.16.20.20
 ```
 
-Capture d’écran : ping réussi.
+<p align="center">
+  <img src="screen/ping_réussi_debian.png" width="45%" />
+  <img src="screen/ping_réussi_windows_11.png" width="45%" />
+</p>
+
 
 ---
 
@@ -211,7 +214,7 @@ systemctl status ssh
 
 Le service doit être actif.
 
-Capture d’écran : status SSH actif.
+![status_SSH_actif](screen/status_SSH_actif.png)
 
 ---
 
@@ -225,4 +228,4 @@ ssh wilder@172.16.20.10
 
 Mot de passe : Azerty1*
 
-Capture d’écran : connexion SSH réussie.
+![connexion_SSH_réussief](screen/connexion_SSH_réussie.png)
