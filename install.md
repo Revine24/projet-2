@@ -229,7 +229,7 @@ ssh-keygen
 
 Appuyez sur Entrée à chaque étape.
 
-Capture d’écran : génération de clé.
+![generation_de_cle](screen/ssh_sans_mdp/generation_de_cle.png)
 
 ---
 
@@ -241,7 +241,7 @@ type $env:USERPROFILE\.ssh\id_ed25519.pub | ssh wilder@172.16.20.10 "cat >> ~/.s
 
 Entrez le mot de passe une seule fois.
 
-Capture d’écran : envoi de la clé.
+![envoi_de_la_cle](screen/ssh_sans_mdp/envoi_de_la_cle.png)
 
 ---
 
@@ -253,5 +253,5 @@ ssh wilder@172.16.20.10
 
 Connexion automatique attendue.
 
-Capture d’écran : connexion SSH sans mot de passe.
+![connexion_SSH_sans_mdp](screen/ssh_sans_mdp/connexion_SSH_sans_mdp.png)
 
