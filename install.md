@@ -154,7 +154,8 @@ ip a
 ip route
 ```
 
-![resultat de ip a et ip route](screen/Debian/resultat%de%ip%a%et%ip%route.png)
+![ip_a _ip_route](screen/Debian/ip_a _ip_route.png)
+
 ---
 
 ## Test réseau
