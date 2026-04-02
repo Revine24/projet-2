@@ -111,7 +111,7 @@ adduser wilder
 
 Mot de passe : Azerty1*
 
-![résultat de id wilder](screen/Debian/resultat%de%id%wilder.png)
+![résultat de id wilder](screen/Debian/resultat_de_id_wilder.png)
 
 ---
 
