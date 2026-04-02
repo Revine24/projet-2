@@ -83,7 +83,7 @@ ipconfig
 hostname
 ```
 
-![résultat de hostname](screen/Debian/resultat%de%hostname.png)
+![résultat de hostname](screen/Debian/resultat_de_hostname.png)
 
 ---
 
