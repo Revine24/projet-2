@@ -154,7 +154,7 @@ ip a
 ip route
 ```
 
-![ip_a _ip_route](screen/Debian/ip_a _ip_route.png)
+![ip_a _ip_route](screen/Debian/ip_a_ip_route.png)
 
 ---
 
