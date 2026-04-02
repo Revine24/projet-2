@@ -216,3 +216,42 @@ ssh wilder@172.16.20.10
 Mot de passe : Azerty1*
 
 ![connexion_SSH_réussief](screen/connexion_SSH_reussie.png)
+
+---
+
+## Configuration SSH sans mot de passe (clé SSH)
+
+### Étape 1 : Génération de la clé sur Windows
+
+```powershell
+ssh-keygen
+```
+
+Appuyez sur Entrée à chaque étape.
+
+Capture d’écran : génération de clé.
+
+---
+
+### Étape 2 : Envoi de la clé vers Debian
+
+```powershell
+type $env:USERPROFILE\.ssh\id_rsa.pub | ssh wilder@172.16.20.10 "cat >> ~/.ssh/authorized_keys"
+```
+
+Entrez le mot de passe une seule fois.
+
+Capture d’écran : envoi de la clé.
+
+---
+
+### Étape 3 : Test connexion sans mot de passe
+
+```powershell
+ssh wilder@172.16.20.10
+```
+
+Connexion automatique attendue.
+
+Capture d’écran : connexion SSH sans mot de passe.
+
